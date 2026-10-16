@@ -1,8 +1,14 @@
 group: io.kestra.plugin.gooddata
 name: "gooddata"
 title: "GoodData"
-description: "GoodData plugin for Kestra"
-body: ""
+description: "Kestra plugin to integrate with GoodData Cloud and GoodData.CN for data-source scanning, AFM analytics query execution, declarative workspace layout export, and change monitoring."
+body: |
+  Automate GoodData operations from your Kestra pipelines:
+  - **dataSources.Scan** – discover tables and schema changes in a GoodData data source
+  - **executions.Execute** – execute AFM (Analytical Framework Model) queries and retrieve results
+  - **layouts.Export** – export the full declarative LDM + analytics model of a workspace
+  - **workspaces.WorkspaceList** – list all accessible GoodData workspaces
+  - **workspaces.Trigger** – trigger flows when workspace layouts change using persistent KV store watermarks
 videos: []
 createdBy: "Kestra Core Team"
 managedBy: "Kestra Core Team"

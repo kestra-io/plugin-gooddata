@@ -37,6 +37,10 @@
 
 # Kestra GoodData Plugin
 
+## Compatibility
+
+This plugin is designed for Kestra 1.3.x and 2.0.x. It targets Kestra 1.3.39 APIs and uses cross-version compatible HTTP client and property constructs (`Property.ofValue(...)`, `TimeoutConfiguration`). Static bytecode verification confirms all 55 referenced members across 40 classes exist in Kestra core/model 1.3.39, 1.3.43, 2.0.4, and 2.0.6. Functional verification has been confirmed on Kestra 1.3.43 (see `KESTRA_2_0_TESTING.md` for running verification on 2.0.x images).
+
 ## Why
 
 - What user problem does this solve? Teams need a concrete starting point for building and validating new Kestra plugins without recreating the same project scaffolding from scratch.

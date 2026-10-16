@@ -1,0 +1,8 @@
+group: io.kestra.plugin.gooddata.dataSources
+name: "dataSources"
+title: "GoodData Data Sources"
+description: "Tasks for GoodData data source schema scanning and table discovery."
+body: "Scan data sources to discover tables and schema changes in GoodData Cloud or GoodData.CN."
+videos: []
+createdBy: "Kestra Core Team"
+managedBy: "Kestra Core Team"

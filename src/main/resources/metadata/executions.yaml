@@ -1,0 +1,8 @@
+group: io.kestra.plugin.gooddata.executions
+name: "executions"
+title: "GoodData Executions"
+description: "Tasks for executing AFM analytics queries against GoodData workspaces."
+body: "Execute AFM (Analytical Framework Model) queries and retrieve execution results from GoodData."
+videos: []
+createdBy: "Kestra Core Team"
+managedBy: "Kestra Core Team"

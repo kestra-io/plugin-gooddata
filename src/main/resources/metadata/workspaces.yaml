@@ -1,0 +1,8 @@
+group: io.kestra.plugin.gooddata.workspaces
+name: "workspaces"
+title: "GoodData Workspaces"
+description: "Tasks and triggers for GoodData workspaces management and change detection."
+body: "List workspaces and monitor workspace layout changes with stateful polling triggers."
+videos: []
+createdBy: "Kestra Core Team"
+managedBy: "Kestra Core Team"
