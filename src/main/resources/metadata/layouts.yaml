@@ -1,0 +1,8 @@
+group: io.kestra.plugin.gooddata.layouts
+name: "layouts"
+title: "GoodData Layouts"
+description: "Tasks for exporting declarative workspace layouts from GoodData."
+body: "Export full declarative workspace layouts (LDM, metrics, dashboards) as code."
+videos: []
+createdBy: "Kestra Core Team"
+managedBy: "Kestra Core Team"
